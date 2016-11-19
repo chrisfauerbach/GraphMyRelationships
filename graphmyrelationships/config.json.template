@@ -1,0 +1,15 @@
+{
+   "ELASTIC_HOST": "localhost",
+   "ELASTIC_PORT": 9201,
+   "NEO4J_HOST": "localhost",
+   "NEO4J_PORT":  32775,
+   "NEO4J_USERNAME":  "neo4j",
+   "NEO4J_PASSWORD":  "password123",
+   "INDEX_PATTERNS":[
+
+      {"name": "somepattern", "regex":"(.*)-logfiles"},
+      {"name": "anotherpattern", "regex":"(^\\d+|master)-(\\d+)$"},
+      {"name":  "thirdone", "regex":"(.*)-httpd"}
+   ]
+
+}
